@@ -1,11 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { FaPlay, FaCode } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 
 import './SingleProject.css';
 
-function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
+function SingleProject({ id, name, desc, tags, image, theme }) {
     const useStyles = makeStyles((t) => ({
         iconBtn: {
             display: 'flex',
